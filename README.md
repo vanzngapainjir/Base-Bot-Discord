@@ -27,8 +27,8 @@ Installation
 
 1. Clone the repository
 
-git clone YOUR_REPOSITORY_URL
-cd YOUR_REPOSITORY_NAME
+git clone https://github.com/vanzngapainjir/Base-Bot-Discord.git
+cd Base-Bot-Discord
 
 2. Install dependencies
 
