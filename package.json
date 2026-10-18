@@ -1,0 +1,22 @@
+{
+  "name": "discord-bot-nodejs",
+  "version": "1.1.0",
+  "description": "Simple discord bot base",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "deploy": "node src/deploy-commands.js",
+    "dev": "node --watch src/index.js"
+  },
+  "engines": {
+    "node": ">=18.17.0"
+  },
+  "dependencies": {
+    "@discordjs/voice": "^0.18.0",
+    "archiver": "^7.0.1",
+    "discord.js": "^14.21.0",
+    "dotenv": "^17.2.1",
+    "libsodium-wrappers": "^0.7.15",
+    "opusscript": "^0.0.8"
+  }
+}
